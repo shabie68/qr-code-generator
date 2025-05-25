@@ -85,6 +85,16 @@ Dependencies*****
 	- GuzzleHttp for HTTP client functionality
 
 
+OpenRouter AI API Key Setup*****
+
+	- To enable AI-powered personalized sentence generation on the dashboard, you need to:
+
+	- Register for an API key at OpenRouter.ai
+
+	- Add the API key to your .env file under the OPENROUTER_KEY variable
+
+	- Make sure your local environment has internet access for API calls
+
 NOTE***** 
 
 It also include the SYSTEM ARCHITECTURE AND DATA FLOW DIAGRAM in the root directory
