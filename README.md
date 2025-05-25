@@ -91,9 +91,21 @@ OpenRouter AI API Key Setup*****
 
 	- Register for an API key at OpenRouter.ai
 
+	- Generate api key here: https://openrouter.ai/settings/keys
+
 	- Add the API key to your .env file under the OPENROUTER_KEY variable
 
 	- Make sure your local environment has internet access for API calls
+
+
+Clear config and cache*****
+
+	- The last step is to clear the config and cache by running below 2 commands
+
+	- php artisan config:cache
+
+	- php artisan cache:clear
+
 
 NOTE***** 
 
