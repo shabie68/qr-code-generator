@@ -22,54 +22,30 @@ MySQL or other supported database
 Installation Instructions
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/shabie68/qr-code-generator.git
 cd qr-code-generator
+
 Install PHP dependencies:
-
-bash
-Copy
-Edit
 composer install
+
 Install JavaScript dependencies:
-
-bash
-Copy
-Edit
 npm install
-Set up environment:
 
-bash
-Copy
-Edit
+
+Set up environment:
 cp .env.example .env
 Update .env with your database credentials and other config.
 
 Generate app key:
-
-bash
-Copy
-Edit
 php artisan key:generate
 Run database migrations:
 
-bash
-Copy
-Edit
 php artisan migrate
 Compile frontend assets:
 
-bash
-Copy
-Edit
 npm run dev
 Start the development server:
 
-bash
-Copy
-Edit
 php artisan serve
 Open your browser to http://localhost:8000 and register or log in to start generating QR codes.
 
