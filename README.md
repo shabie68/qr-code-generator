@@ -63,6 +63,8 @@ Compile frontend assets*****
 
 	- npm run dev
 
+	- npm run watch
+
 
 Start the development server*****
 

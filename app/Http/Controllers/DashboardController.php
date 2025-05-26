@@ -69,7 +69,7 @@ class DashboardController extends Controller
 
     protected function smallContextAwareModel($email)
     {
-        $commonNames = ['john doe', 'jane doe', 'test user', 'test', 'anonymous', 'guest', 'admin', 'user'];
+        $commonNames = ['aslam', 'john doe', 'jane doe', 'test user', 'test', 'anonymous', 'guest', 'admin', 'user', 'bob', 'alice'];
         $disposableDomains = [
             'mailinator.com', 'tempmail.com', '10minutemail.com', 'trashmail.com',
             'guerrillamail.com', 'yopmail.com', 'getnada.com', 'dispostable.com',
